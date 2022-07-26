@@ -25,7 +25,7 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        scoreText.text = Mathf.Round(score).ToString() + " очков";
+        scoreText.text = Mathf.Round(score).ToString() + " score";
         healthText.text = health.ToString() + " HP";
 
         if (health <=0)

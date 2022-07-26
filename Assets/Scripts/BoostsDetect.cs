@@ -21,6 +21,7 @@ public class BoostsDetect : MonoBehaviour
         {
             if (gameObject.name == "Heart(Clone)")
             {
+                spawbBoosts.howMuchBoostsOnTheScreen--;
                 gameManager.health++;
                 if(gameManager.health > 10)
                 {
@@ -30,6 +31,7 @@ public class BoostsDetect : MonoBehaviour
             }
             if(gameObject.name == "Shield(Clone)")
             {
+                spawbBoosts.howMuchBoostsOnTheScreen--;
                 detectBullets.Shield();
             }
 

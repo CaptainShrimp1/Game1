@@ -373,7 +373,7 @@ MonoBehaviour:
   BoostsPrefabs:
   - {fileID: 348366751687769124, guid: 55c79949f1a5ba142bbc44152107d516, type: 3}
   - {fileID: 560703280309025196, guid: 14cc4e859777cc3488dffe292f58b980, type: 3}
-  reloadingSpawn: 6
+  reloadingSpawn: 7
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -687,7 +687,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -24, y: -301}
+  m_AnchoredPosition: {x: 21, y: -76}
   m_SizeDelta: {x: 320, y: 90}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &842334652
@@ -927,8 +927,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 678, y: 404}
-  m_SizeDelta: {x: 480, y: 150}
+  m_AnchoredPosition: {x: 145, y: 146}
+  m_SizeDelta: {x: 240, y: 75}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &903854757
 MonoBehaviour:
@@ -952,11 +952,11 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 100
+    m_FontSize: 40
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 1
-    m_MaxSize: 143
+    m_MinSize: 0
+    m_MaxSize: 219
     m_Alignment: 0
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -1019,7 +1019,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -24, y: -301}
+  m_AnchoredPosition: {x: 6, y: -126}
   m_SizeDelta: {x: 320, y: 90}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1003046090
@@ -1216,8 +1216,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -773, y: 409}
-  m_SizeDelta: {x: 480, y: 150}
+  m_AnchoredPosition: {x: -240, y: 145}
+  m_SizeDelta: {x: 240, y: 75}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1188383554
 MonoBehaviour:
@@ -1241,7 +1241,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 100
+    m_FontSize: 40
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 1
@@ -1279,7 +1279,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1278407214
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1611,7 +1611,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u0418\u0433\u0440\u0430\u0442\u044C"
+  m_Text: Play
 --- !u!222 &1676674399
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1690,7 +1690,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u0415\u0449\u0435 \u0440\u0430\u0437"
+  m_Text: Try Again
 --- !u!222 &1687289338
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2283,6 +2283,10 @@ PrefabInstance:
       propertyPath: shieldImage
       value: 
       objectReference: {fileID: 115296018}
+    - target: {fileID: 5857027229000989612, guid: 182d7c455c261c349888f8df50e9c70d, type: 3}
+      propertyPath: shieldReloading
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 5857027229000989614, guid: 182d7c455c261c349888f8df50e9c70d, type: 3}
       propertyPath: m_RootOrder
       value: 2
